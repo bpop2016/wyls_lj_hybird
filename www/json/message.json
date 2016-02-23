@@ -1,0 +1,18 @@
+{ 
+    "id": 1,
+    "name": "王峰",
+    "pic": "http://www.runoob.com/try/demo_source/venkman.jpg",
+    "message": [{
+        "isFromeMe": false,
+        "content": "你好!",
+        "time": "11-22"
+    }, {
+        "isFromeMe": true,
+        "content": "你好, 你是谁?",
+        "time": "08:51"
+    }, {
+        "isFromeMe": false,
+        "content": "明天什么时候去吃饭?",
+        "time": "5:22"
+    }]
+}

@@ -1,0 +1,49 @@
+//state状态码：
+//20：没有律师抢单或者律师回答超时，该问题回答大厅，等待另外律师抢单
+//30：律师回答问题中
+//41：问题已回答
+{
+    "messages": [{
+        "id": 8,
+        "name": "李明",
+        "pic": "img/adam.jpg",
+
+        "message": [{
+            "isFromeMe": false,
+            "content": "你好!",
+            "time": "2015-11-22 08:50:22"
+        },  "isFromeMe": false,
+            "content": "被开水烫伤怎么办?",
+            "time": "2015-11-22 08:51:02"
+        }, {
+            "isFromeMe": false,
+            "content": "谁说菜鸟不会数据分析?",
+            "time": "2015-11-27 06:34:55"
+        }, {
+            "isFromeMe": true,
+            "content": "谁念西风独自凉",
+            "time": "2015-11-22 08:51:02"
+        }, {
+            "isFromeMe": false,
+            "content": "被酒莫惊春睡重，赌书消得泼茶香，当时只道是寻常",
+            "time": "2015-11-27 06:34:55"
+        }]
+    }, {
+        "id": 1,
+        "name": "王峰",
+        "pic": "img/ben.png",
+        "message": [{
+            "isFromeMe": false,
+            "content": "你好!",
+            "time": "2015-11-22 08:50:22"
+        }, {
+            "isFromeMe": true,
+            "content": "你好, 你是谁?",
+            "time": "2015-11-22 08:51:02"
+        }, {
+            "isFromeMe": false,
+            "content": "明天什么时候去吃饭?",
+            "time": "2015-11-26 5:22:55"
+        }]
+    }]
+}

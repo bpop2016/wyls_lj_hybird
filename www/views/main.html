@@ -1,0 +1,23 @@
+<ion-view hide-nav-bar="true">
+    <ion-content>
+        <div class="row row-no-padding">
+            <div class="col">
+                <ion-slide-box show-pager="false">
+                    <ion-slide><img src="img/001.jpg" class="main-banner-img"></ion-slide>
+                    <ion-slide><img src="img/001.jpg" class="main-banner-img"></ion-slide>
+                </ion-slide-box>
+                <button menu-toggle="left" class="button button-icon icon ion-navicon main-menu-btn"></button>
+            </div>
+        </div>
+        <button class="button button-icon icon ion-pinpoint main-btn-center" ng-click="showCasesType();"></button>
+        <div class="row row-no-padding">
+            <div class="col col-50">
+                <button class="button button-block button-clear" ng-click="question_input();">找律师</button>
+            </div>
+            <div class="col col-50">
+                <button class="button button-block button-clear" ng-click="laywer_list();">私人律师</button>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
+

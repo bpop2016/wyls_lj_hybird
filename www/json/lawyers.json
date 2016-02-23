@@ -1,0 +1,32 @@
+{
+	"numPerPage":10,
+	"currentPage":1,
+	"totalPage":5,
+	"sortby":"distance",
+    "lawyers": [{
+        "id": 100000,
+        "name": "李明",
+        "pic": "http://www.runoob.com/try/demo_source/venkman.jpg",
+        "workyears": 5,
+        "job":"主任律师",
+        "city": "北京",
+        "lawfirm": "光明律师事务所",
+   		"score": 4.5,
+        "distance": "0.5公里",
+        "majors":["婚姻家庭","债务纠纷"]
+        },
+        {
+        "id": 100001,
+        "name": "王清华",
+        "pic": "http://www.runoob.com/try/demo_source/venkman.jpg",
+        "workyears": 3,
+        "job":"主任律师",
+        "city": "北京",
+        "lawfirm": "智慧律师事务所",
+   		"score": 5.0,
+        "distance": "0.6公里",
+        "majors":["婚姻家庭","债务纠纷"]
+        }   
+     ]       
+}
+

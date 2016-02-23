@@ -1,0 +1,224 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #387ef5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+$dark:                            #444 !default;
+*/
+
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+@charset "UTF-8";
+/* menu 菜单 */
+
+.menu-exit {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+}
+
+/* main 主页面*/
+
+.main-banner-img {
+  width: 100%;
+}
+
+.main-menu-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.main-slider {
+  width: 100%;
+  height: 400px;
+  /* TODO DEL*/
+}
+
+.main-btn-center {
+  background-color: red;
+  position: relative;
+  top: -20px;
+  /* 以实际图标大小/2计算*/
+  margin-left: -20px;
+  /* 以实际图标大小/2计算*/
+  left: 50%;
+}
+
+/* question 提问*/
+
+.btn-question {
+  position: absolute;
+  bottom: 0px;
+}
+
+/* 律师页面 */
+
+.item > {
+  .score-span {
+    position: absolute;
+    bottom: 18px;
+    left: 7px;
+  }
+  .year-span {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    width: 75px;
+    height: 35px;
+    background-color: #4169E1;
+  }
+  .distance-i {
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+  }
+  .score-span > {
+    .score-i {
+      color: #ccc;
+    }
+    .score-i-select {
+      color: #FFD700 !important;
+    }
+  }
+}
+
+.laywer-span-font {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/* 消息-聊天*/
+
+.rj-stable-content {
+  background-color: #EEE;
+}
+
+.rj-message-time {
+  width: 42px;
+  text-align: center;
+  margin-bottom: 5px;
+  color: #FFF;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rj-item-top {
+  background-color: #F1F1F1 !important;
+}
+
+.rj-message-wrap {
+  padding: 7px;
+  overflow: auto;
+  position: relative;
+  .rj-head-pic, .rj-head-pic-right {
+    max-height: 40px;
+    max-width: 40px;
+  }
+  .rj-head-pic {
+    float: left;
+  }
+  .rj-head-pic-right {
+    float: right;
+  }
+  .rj-message, .rj-message-right {
+    padding: 6px 8px;
+    line-height: 26px;
+    max-width: 190px;
+    border-radius: 5px;
+  }
+  .rj-message {
+    float: left;
+    margin-left: 16px;
+    background-color: #fff;
+  }
+  .rj-message-right {
+    float: right;
+    margin-right: 16px;
+    background-color: #6BE00B;
+  }
+  .rj-triangle-left, .rj-triangle-right {
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-width: 8px 10px;
+    border-style: solid;
+    top: 17px;
+  }
+  .rj-triangle-left {
+    left: 47px;
+    border-color: transparent #FFF transparent transparent;
+  }
+  .rj-triangle-right {
+    right: 47px;
+    border-color: transparent transparent transparent #6BE00B;
+  }
+}
+
+/* 通用*/
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.padding-item {
+  padding: 5px 5px 0px;
+}
+
+.padding-item-0 {
+  padding: 0px 5px 0px;
+}
+
+.padding-item-5 {
+  padding: 5px 5px 5px;
+}
+
+.padding-item-all-0 {
+  padding: 0px;
+}
+
+.margin-item-all-0 {
+  margin: 0px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-13 {
+  font-size: 13px;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.title-right {
+  float: right;
+  position: relative;
+}
+
+.border-radius-8 {
+  border-radius: 8px;
+}
